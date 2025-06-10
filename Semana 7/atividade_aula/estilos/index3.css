@@ -1,0 +1,33 @@
+* {
+    color: rgb(0,0,0);
+    text-decoration: underline;
+
+}
+
+:root{
+    font-size: 12px;
+}
+
+h1 {
+    color: rgb(255,0,0);
+}
+
+#hug {
+    color: rgb(0,0,255);
+}
+
+.escoteiro {
+    text-decoration: none;
+}
+
+.amiga {
+    font-size: 30px;
+}
+
+.piloto .amigo {
+    color: rgb(0,255,0);
+}
+
+.escoteiro:hover {
+    color: rgb(0,255,255);
+}
