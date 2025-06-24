@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC202 Semana 9</title>
+    <style>
+        * {
+            box-sizing: border-box; /* Inclui bordas e preenchimentos no tamanho total dos elementos */
+        }
+        article {
+            resize: both; /* Permite redimensionar o artigo */
+            border: 1px solid orangered; /* Borda para o artigo */
+            overflow: auto; /* Permite rolagem se o conteúdo for maior que o artigo */
+        }
+        .des-pancake {
+            display: grid;
+            list-style: none; /* Remove os marcadores da lista */
+            margin: 0; /* Remove a margem da lista */
+            padding: 0; /* Remove o preenchimento da lista */
+            display: flex; /* Usa flexbox para o layout */
+            flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço suficiente */
+            justify-content: center; /* Centraliza os itens horizontalmente */
+
+        }
+        .des-pancake>* {
+            border: 1px solid green; /* Borda para os itens da lista */
+            padding: 0.3rem; /* Preenchimento interno dos itens da lista */
+            background: lightgreen;
+            min-height: 50px;
+            flex: 1 1 150px; /* Permite que os itens cresçam e encolham, com um tamanho base de 150px */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>DCC202 - Desconstructed Pancake</h1>
+            <ul class="des-pancake">
+                <li>Layout 00</li>
+                <li>Layout 01</li>
+                <li>Layout 02</li>
+                <li>Layout 03</li>
+                <li>Layout 04</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>

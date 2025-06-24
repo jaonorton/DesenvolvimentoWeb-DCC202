@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC202 Semana 9</title>
+    <style>
+        * {
+            box-sizing: border-box; /* Inclui bordas e preenchimentos no tamanho total dos elementos */
+        }
+        main {
+            resize: both; /* Permite redimensionar o artigo */
+            border: 1px solid orangered; /* Borda para o artigo */
+            overflow: auto; /* Permite rolagem se o conteúdo for maior que o artigo */
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+        header{
+            background: lightcoral;
+        }
+
+        article{
+            background: lightgreen;
+        }
+        footer{
+            background: lightblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>DCC202 - Desconstructed Pancake</h1>
+        </header>
+        <article>
+            <h1>Lorem, ipsum.</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil sequi aliquid expedita autem tempora, sapiente voluptatibus debitis earum vel reiciendis. Aspernatur, deserunt ea dolor iste nam eum blanditiis molestiae vero! </p>
+            <p>Quisquam, voluptatum. Doloribus, cumque. Quisquam, voluptatum. Doloribus, cumque. Quisquam, voluptatum.</p>
+        </article>
+        <footer>
+            DCC202 &copy; 2025
+        </footer>
+    </main>
+</body>
+</html>

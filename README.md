@@ -34,3 +34,7 @@ Caso eu quisesse armazenar isso eu poderia, mas aí se a faculdade apagar esses 
 - Tudo na web são caixas 
 - Propeidades das caixas
 - Unidades de medidas
+
+### Semana 9 (24/06/2025)
+- Layouts basicos em css
+(não consegui acompanhar então do 5 em diante não tem ou tá errado)
