@@ -29,3 +29,8 @@ Caso eu quisesse armazenar isso eu poderia, mas aí se a faculdade apagar esses 
 
 ### Semana 7 (10/06/2025)
 - Aprendendo o básico sobre CSS
+
+### Semana 8 (17/06/2025)
+- Tudo na web são caixas 
+- Propeidades das caixas
+- Unidades de medidas
