@@ -41,3 +41,6 @@ Caso eu quisesse armazenar isso eu poderia, mas aí se a faculdade apagar esses 
 
 ### Semana 10 (01/07/2025)
 - Conceitos básicos de dados e variáveis em JavaScript
+
+### Semana 11 (08/07/2025)
+- Conceitos básicos de funções em JavaScript
