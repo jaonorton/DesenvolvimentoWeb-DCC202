@@ -44,3 +44,10 @@ Caso eu quisesse armazenar isso eu poderia, mas aí se a faculdade apagar esses 
 
 ### Semana 11 (08/07/2025)
 - Conceitos básicos de funções em JavaScript
+
+### Semana 12 (15/07/2025)
+- Manipulação de DOM
+
+### Semana 13 (22/07/2025)
+- Prova teórica
+

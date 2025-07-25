@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo 01</title>
+</head>
+<body>
+    <h1>Exemplo 01</h1>
+    <p>Este é o exemplo 01.</p>
+    <p>A soma de <span contenteditable="true">2</span> e 
+        <span contenteditable="true">3</span> é <span>?</span></p>
+    <button>Calcular</button>
+    <script>
+        const spans = document.querySelectorAll("span");
+        const button = document.querySelector("button");
+
+        button.addEventListener("click", () => {
+            const a = Number(spans[0].textContent);
+            const b = Number(spans[1].textContent);
+            spans[2].textContent = a + b;
+        });
+    </script>
+</body>
+</html>
