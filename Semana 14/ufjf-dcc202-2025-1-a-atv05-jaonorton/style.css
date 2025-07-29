@@ -1,0 +1,7 @@
+.tabuleiro {
+    background: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: calc(7 * 25px);
+    min-height: 25px;
+}

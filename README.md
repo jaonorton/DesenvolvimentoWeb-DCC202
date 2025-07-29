@@ -51,3 +51,5 @@ Caso eu quisesse armazenar isso eu poderia, mas aí se a faculdade apagar esses 
 ### Semana 13 (22/07/2025)
 - Prova teórica
 
+### Semana 14 (29/07/2025)
+- Atividade feita em sala 
